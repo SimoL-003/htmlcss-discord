@@ -1,0 +1,210 @@
+/* Custom properties */
+:root {
+    --padding-lg: 30px;
+    --white: rgb(255, 255, 255);
+    --black: rgb(36, 39, 42);
+    --font-sm: 14px;
+}
+
+/* RESET */
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* COMMON */
+/* Layout */
+.container {
+    width: 80%;
+    max-width: 900px;
+}
+
+.flex {
+    display: flex;
+}
+
+/* Elements */
+* {
+    font-family: sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn-small {
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: var(--font-sm);
+}
+
+.btn-big {}
+
+.btn-white {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+/* Utilities */
+.bg-gray {
+    background-color: lightgray;
+}
+
+/* HEADER */
+.header {
+    background-color: rgb(53, 93, 225);
+    padding: 10px;
+}
+
+.header>div {
+    padding: 5px 3px;
+    align-items: center;
+}
+
+header .logo,
+header .login {
+    width: 20%;
+    padding: 5px 3px;
+}
+
+.navbar {
+    width: 60%;
+    color: var(--white);
+    font-size: var(--font-sm);
+}
+
+.navbar ul {
+    list-style-type: none;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.login {
+    text-align: end;
+}
+
+/* /HEADER */
+
+/* MAIN */
+
+main section {
+    padding: var(--padding-lg);
+}
+
+/* Hero section */
+.hero-section {
+    background-color: blue;
+}
+
+.hero-section .container {
+    width: 60%;
+    max-width: 700px;
+    background-color: pink;
+
+    /* debug */
+    height: 200px;
+}
+
+/* /Hero section */
+
+/* Image-text section */
+.image-text-section div {
+
+    /* debug */
+    height: 250px;
+}
+
+.image-text-section .img {
+    width: 60%;
+    background-color: rgb(52, 254, 254);
+}
+
+.image-text-section .text {
+    width: 40%;
+    background-color: lightcoral;
+}
+
+/* /Image-text section */
+
+/* CTA section */
+.cta-section div {
+    background-color: green;
+
+    /* debug */
+    height: 400px;
+}
+
+/* /CTA section */
+/* /MAIN */
+
+/* FOOTER  */
+.footer {
+    background-color: rgb(35, 35, 35);
+}
+
+/* Footer top  */
+.footer-top {
+    padding: 5px var(--padding-lg) 20px;
+}
+
+.footer-top>div {
+    /* debug */
+    height: 250px;
+}
+
+.footer-top .large {
+    width: 30%;
+    background-color: rgb(255, 129, 150);
+}
+
+.footer-top .list-section {
+    width: 70%;
+}
+
+.footer-top .list {
+    background-color: aqua;
+    width: 100%;
+    border-left: 1px dotted white;
+}
+
+/* /Footer top */
+
+.footer hr {
+    color: gray;
+}
+
+/* Footer bottom */
+.footer-bottom {
+    padding: 15px var(--padding-lg) 0;
+}
+
+.footer-bottom>div {
+    background-color: aquamarine;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.footer-bottom .logo {
+    margin-left: 0;
+}
+
+.footer-bottom .button {
+    margin-right: 0;
+    padding: 2px 7px;
+}
+
+/* /Footer bottom */
+/* /FOOTER */
