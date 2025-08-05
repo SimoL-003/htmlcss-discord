@@ -52,6 +52,10 @@ h2 {
     margin-bottom: 30px
 }
 
+h3 {
+    font-size: 25px;
+}
+
 p {
     line-height: 25px;
 }
@@ -88,6 +92,14 @@ p {
     background-color: var(--black);
 }
 
+.bg-gray {
+    background-color: var(--bg-gray);
+}
+
+.bg-violet {
+    background-color: var(--light-violet);
+}
+
 .pt-50 {
     padding-top: 50px;
 }
@@ -108,6 +120,10 @@ p {
     padding-bottom: 110px;
 }
 
+.pb-130 {
+    padding-bottom: 130px;
+}
+
 .ml-0 {
     margin-left: 0;
 }
@@ -124,8 +140,8 @@ p {
     margin-bottom: 30px;
 }
 
-.bg-gray {
-    background-color: var(--bg-gray);
+.mb-50 {
+    padding-bottom: 50px;
 }
 
 .text-center {
@@ -214,6 +230,12 @@ header .login {
 /* /Image-text section */
 
 /* CTA section */
+.question {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    flex-direction: column;
+}
 
 /* /CTA section */
 /* /MAIN */
