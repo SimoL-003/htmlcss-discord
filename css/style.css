@@ -246,18 +246,8 @@ header .login {
 }
 
 /* Footer top  */
-.footer-top {
-    padding: 5px var(--padding-lg) 20px;
-}
-
-.footer-top>div {
-    /* debug */
-    height: 250px;
-}
-
 .footer-top .large {
     width: 30%;
-    background-color: rgb(255, 129, 150);
 }
 
 .footer-top .list-section {
@@ -265,36 +255,12 @@ header .login {
 }
 
 .footer-top .list {
-    background-color: aqua;
     width: 100%;
-    border-left: 1px dotted white;
 }
 
 /* /Footer top */
 
-.footer hr {
-    color: gray;
-}
-
 /* Footer bottom */
-.footer-bottom {
-    padding: 15px var(--padding-lg) 0;
-}
-
-.footer-bottom>div {
-    background-color: aquamarine;
-    justify-content: space-between;
-    padding: 15px 0;
-}
-
-.footer-bottom .logo {
-    margin-left: 0;
-}
-
-.footer-bottom .button {
-    margin-right: 0;
-    padding: 2px 7px;
-}
 
 /* /Footer bottom */
 /* /FOOTER */
