@@ -3,6 +3,7 @@
     --white: rgb(255, 255, 255);
     --black: rgb(36, 39, 42);
     --light-violet: rgb(118, 136, 212);
+    --bg-gray: rgb(245, 245, 245);
 }
 
 /* RESET */
@@ -43,11 +44,16 @@ a:hover {
 
 h1 {
     font-size: 40px;
-    font-weight: 600;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 30px
 }
 
 p {
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .btn-small {
@@ -82,9 +88,24 @@ p {
     background-color: var(--black);
 }
 
-.py-115 {
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pt-115 {
     padding-top: 115px;
-    padding-bottom: 115px;
+}
+
+.pt-130 {
+    padding-top: 130px
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pb-110 {
+    padding-bottom: 110px;
 }
 
 .ml-0 {
@@ -103,9 +124,8 @@ p {
     margin-bottom: 30px;
 }
 
-
 .bg-gray {
-    background-color: lightgray;
+    background-color: var(--bg-gray);
 }
 
 .text-center {
@@ -170,31 +190,30 @@ header .login {
 /* /Hero section */
 
 /* Image-text section */
-.image-text-section div {
-
-    /* debug */
-    height: 250px;
-}
 
 .image-text-section .img {
     width: 60%;
-    background-color: rgb(52, 254, 254);
 }
 
 .image-text-section .text {
     width: 40%;
-    background-color: lightcoral;
+}
+
+.wave,
+.wave-reverse {
+    width: 100%;
+    color: var(--bg-gray);
+    background-color: white;
+}
+
+.wave-reverse {
+    rotate: 180deg;
+    transform: scaleX(-1);
 }
 
 /* /Image-text section */
 
 /* CTA section */
-.cta-section div {
-    background-color: green;
-
-    /* debug */
-    height: 400px;
-}
 
 /* /CTA section */
 /* /MAIN */
