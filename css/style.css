@@ -1,9 +1,8 @@
 /* Custom properties */
 :root {
-    --padding-lg: 30px;
     --white: rgb(255, 255, 255);
     --black: rgb(36, 39, 42);
-    --font-sm: 14px;
+    --light-violet: rgb(118, 136, 212);
 }
 
 /* RESET */
@@ -42,27 +41,84 @@ a:hover {
     text-decoration: underline;
 }
 
-.btn-small {
-    padding: 10px 15px;
-    border-radius: 50px;
-    font-size: var(--font-sm);
+h1 {
+    font-size: 40px;
+    font-weight: 600;
 }
 
-.btn-big {}
+p {
+    line-height: 30px;
+}
 
-.btn-white {
-    background-color: var(--white);
-    color: var(--black);
+.btn-small {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+.btn-big {
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 18px;
 }
 
 /* Utilities */
+
+.black {
+    color: var(--black);
+}
+
+.white {
+    color: var(--white);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.py-115 {
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+.ml-0 {
+    margin-left: 0;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+
 .bg-gray {
     background-color: lightgray;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
 /* HEADER */
 .header {
-    background-color: rgb(53, 93, 225);
+    background-color: rgb(53, 93, 224);
     padding: 10px;
 }
 
@@ -99,23 +155,16 @@ header .login {
 /* /HEADER */
 
 /* MAIN */
-
-main section {
-    padding: var(--padding-lg);
-}
-
 /* Hero section */
 .hero-section {
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hero-section .container {
     width: 60%;
-    max-width: 700px;
-    background-color: pink;
-
-    /* debug */
-    height: 200px;
+    max-width: 800px;
 }
 
 /* /Hero section */
