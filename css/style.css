@@ -117,6 +117,10 @@ p {
     background-color: var(--light-violet);
 }
 
+.pt-20 {
+    padding-top: 20px;
+}
+
 .pt-50 {
     padding-top: 50px;
 }
@@ -196,6 +200,10 @@ p {
 
 .justify-center {
     justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
 }
 
 .gap-15 {
@@ -335,7 +343,15 @@ header .login {
 
 /* /Footer top */
 
+.footer hr {
+    border-color: var(--light-violet);
+}
+
 /* Footer bottom */
+
+.footer-bottom a {
+    margin: 0;
+}
 
 /* /Footer bottom */
 /* /FOOTER */
