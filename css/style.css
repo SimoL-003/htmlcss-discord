@@ -17,6 +17,10 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style: none;
+}
+
 /* COMMON */
 /* Layout */
 .container {
@@ -29,8 +33,8 @@ img {
 }
 
 /* Elements */
-* {
-    font-family: sans-serif;
+body {
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -53,7 +57,16 @@ h2 {
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 16px;
 }
 
 p {
@@ -84,6 +97,10 @@ p {
     color: var(--white);
 }
 
+.violet {
+    color: var(--light-violet);
+}
+
 .bg-white {
     background-color: var(--white);
 }
@@ -112,6 +129,10 @@ p {
     padding-top: 130px
 }
 
+.pb-30 {
+    padding-bottom: 30px;
+}
+
 .pb-100 {
     padding-bottom: 100px;
 }
@@ -124,8 +145,21 @@ p {
     padding-bottom: 130px;
 }
 
+.py-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pr-50 {
+    padding-right: 50px;
+}
+
 .ml-0 {
     margin-left: 0;
+}
+
+.mr-5 {
+    margin-right: 5px;
 }
 
 .mr-10 {
@@ -136,6 +170,10 @@ p {
     margin-bottom: 15px;
 }
 
+.mb-20 {
+    margin-bottom: 20px;
+}
+
 .mb-30 {
     margin-bottom: 30px;
 }
@@ -144,12 +182,24 @@ p {
     padding-bottom: 50px;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+
 .text-center {
     text-align: center;
 }
 
+.vertical-align-center {
+    vertical-align: middle;
+}
+
 .justify-center {
     justify-content: center;
+}
+
+.gap-15 {
+    gap: 15px;
 }
 
 /* HEADER */
@@ -242,12 +292,32 @@ header .login {
 
 /* FOOTER  */
 .footer {
-    background-color: rgb(35, 35, 35);
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer h6 {
+    color: var(--light-violet);
 }
 
 /* Footer top  */
 .footer-top .large {
     width: 30%;
+}
+
+.flag-ita {
+    width: 25px;
+}
+
+.footer-top .large li {
+    margin: 0;
+}
+
+.social svg {
+    color: var(--white);
+    width: 25px;
 }
 
 .footer-top .list-section {
@@ -256,6 +326,11 @@ header .login {
 
 .footer-top .list {
     width: 100%;
+}
+
+.footer-top .list-section a {
+    display: inline-block;
+    margin-top: 15px;
 }
 
 /* /Footer top */
