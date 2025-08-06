@@ -1,0 +1,154 @@
+/* COLOR */
+.black {
+    color: var(--black);
+}
+
+.white {
+    color: var(--white);
+}
+
+.violet {
+    color: var(--light-violet);
+}
+
+/* BACKGROUND */
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.bg-gray {
+    background-color: var(--bg-gray);
+}
+
+.bg-violet {
+    background-color: var(--light-violet);
+}
+
+/* PADDING */
+/* Padding top */
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pt-115 {
+    padding-top: 115px;
+}
+
+.pt-130 {
+    padding-top: 130px
+}
+
+/* /Padding top */
+
+
+/* Padding bottom */
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pb-110 {
+    padding-bottom: 110px;
+}
+
+.pb-130 {
+    padding-bottom: 130px;
+}
+
+/* /Padding bottom */
+
+/* Vertical padding */
+.py-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* /Vertical padding */
+
+/* Padding right */
+.pr-50 {
+    padding-right: 50px;
+}
+
+/* /Padding right */
+
+/* MARGIN */
+/* Margin top */
+.mt-20 {
+    margin-top: 20px;
+}
+
+/* /Margin top */
+
+/* Margin bottom */
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-50 {
+    padding-bottom: 50px;
+}
+
+/* /Margin bottom */
+
+/* Margin left */
+.ml-0 {
+    margin-left: 0;
+}
+
+/* /Margin left */
+
+/* Margin right */
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+/* /Margin right */
+
+/* ALIGN ELEMENTS */
+
+.text-center {
+    text-align: center;
+}
+
+.vertical-align-center {
+    vertical-align: middle;
+}
+
+/* Flex classes */
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.gap-15 {
+    gap: 15px;
+}

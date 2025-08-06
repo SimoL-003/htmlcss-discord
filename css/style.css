@@ -1,3 +1,6 @@
+@import url(./typography.css);
+@import url(./utilities.css);
+
 /* Custom properties */
 :root {
     --white: rgb(255, 255, 255);
@@ -33,45 +36,6 @@ ul {
 }
 
 /* Elements */
-body {
-    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-h1 {
-    font-size: 40px;
-}
-
-h2 {
-    font-size: 36px;
-    line-height: 45px;
-    margin-bottom: 30px
-}
-
-h3 {
-    font-size: 24px;
-}
-
-h4 {
-    font-size: 24px;
-    font-weight: 500;
-}
-
-h6 {
-    font-size: 16px;
-}
-
-p {
-    line-height: 25px;
-}
 
 .btn-small {
     display: inline-block;
@@ -85,129 +49,6 @@ p {
     padding: 15px 20px;
     border-radius: 50px;
     font-size: 18px;
-}
-
-/* Utilities */
-
-.black {
-    color: var(--black);
-}
-
-.white {
-    color: var(--white);
-}
-
-.violet {
-    color: var(--light-violet);
-}
-
-.bg-white {
-    background-color: var(--white);
-}
-
-.bg-black {
-    background-color: var(--black);
-}
-
-.bg-gray {
-    background-color: var(--bg-gray);
-}
-
-.bg-violet {
-    background-color: var(--light-violet);
-}
-
-.pt-20 {
-    padding-top: 20px;
-}
-
-.pt-50 {
-    padding-top: 50px;
-}
-
-.pt-115 {
-    padding-top: 115px;
-}
-
-.pt-130 {
-    padding-top: 130px
-}
-
-.pb-30 {
-    padding-bottom: 30px;
-}
-
-.pb-100 {
-    padding-bottom: 100px;
-}
-
-.pb-110 {
-    padding-bottom: 110px;
-}
-
-.pb-130 {
-    padding-bottom: 130px;
-}
-
-.py-50 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.pr-50 {
-    padding-right: 50px;
-}
-
-.ml-0 {
-    margin-left: 0;
-}
-
-.mr-5 {
-    margin-right: 5px;
-}
-
-.mr-10 {
-    margin-right: 10px;
-}
-
-.mb-15 {
-    margin-bottom: 15px;
-}
-
-.mb-20 {
-    margin-bottom: 20px;
-}
-
-.mb-30 {
-    margin-bottom: 30px;
-}
-
-.mb-50 {
-    padding-bottom: 50px;
-}
-
-.mt-20 {
-    margin-top: 20px;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.vertical-align-center {
-    vertical-align: middle;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.justify-between {
-    justify-content: space-between;
-}
-
-.gap-15 {
-    gap: 15px;
 }
 
 /* HEADER */
